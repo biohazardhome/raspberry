@@ -1,3 +1,6 @@
+Названия сайта
+	Вольт
+
 Товар
 	Колонки - ИД, ЧПУ, Название, Описание, Закупочная цена, Розничная цена, Оптовая цена, Картинки, Характеристики (json), 
 	Документы (datasheet, манулы)
@@ -48,6 +51,50 @@
 bootstrap css
 jquery
 
+17.10.2016
+Customer - клиент
+charge - оплата, плата, сбор
+Purchase - купить
+
+05.11.2016
+* Создать склад
+	id, product_id, count
+Доступ в Админку
+Аутентификация
+Авторизация
+products_prices (id, retail (розничная), wholesale (оптовая), purchase (закупочная))
+products_metadata (Заголовки title, header, description)
+products_sales (id, name, title, desc, type, percent, count, canonical)
+products_delivery (id, name, title, desc, type, price)
+products_discount (id, name, title, desc, type, price, count)
+deliveries
+files (Загружаемые в контент и в частности в товар)
+images
+* Склад
+	* Колонка закупочная цена
+	* На складе может быть две позиции одного товара но с разной ценой (и количеством)
+	* Колонка Приходящие количество
+products_parametrs (характеристики) тип json
+* Выбрать тип колонок *price в таблицах (float, decimal) ### Выбрал decimal ###
+Категории для продуктов (может быть в нескольких)
+	Категории могут быть вложенные
+Список продуктов для формы сделать с категориями и поиском по категориям и продуктам
+Колонка категории для продукта
+
+06.11.2016
+Контроллер в админку для категорий
+Склад
+	Остаток
 
 
 
+
+
+Сайты
+	http://www.icover.ru/catalog/product/mikrokompyuter_raspberry_pi_model_3_b/
+	http://onpad.ru/shop/cubie/raspberrypi/raspberrypi/1999.html
+	http://amperkot.ru/products/mini-pc/
+	https://www.terraelectronica.ru/raspberry.php
+	https://www.avito.ru/moskva/nastolnye_kompyutery/raspberry_pi_3_760292663
+Статьи
+	https://fivel.ru/page/raspberry-pi-3-uzhe-dostupna-dlja-zakaza/

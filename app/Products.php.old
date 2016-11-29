@@ -1,0 +1,21 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+use App\Products;
+use App\Storehouse;
+
+class Products extends Model
+{
+    
+    protected
+    	$table = 'products',
+    	$fillable = ['title', 'description', 'slug', 'content', 'count'];
+
+    public function storehouse() {
+    	return $this->hasMany(Storehouse::class, 'product_id', 'id');
+    }
+    
+}

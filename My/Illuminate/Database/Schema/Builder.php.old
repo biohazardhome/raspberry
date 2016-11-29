@@ -1,0 +1,19 @@
+<?php
+
+namespace My\Illuminate\Database\Schema;
+
+use Illuminate\Database\Schema\BuilderOrigin;
+
+class Builder extends BuilderOrigin
+{
+
+    public function dropForeign($table, $index)
+    {
+        $blueprint = $this->createBlueprint($table);
+
+        $blueprint->dropIndexCommand('dropForeign', 'foreign', $index);
+
+        // $this->build($blueprint);
+    }
+
+}
