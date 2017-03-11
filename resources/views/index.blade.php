@@ -18,6 +18,17 @@
             font-family: 'Ubuntu', 'arial';
             text-align: center;
         }
+
+        .content h2 {
+            text-align: center;
+        }
+
+        .content a img {
+            margin: 0 auto;
+            display: block;
+            width: 500px;
+        }
+
         .price {
             /*text-align: center;*/
             font-size: 27px;
@@ -27,16 +38,19 @@
     </style>
     <section>
         <article>
-            <h1 class="head">Raspberry Pi 3 доступна для предзаказа по доступной цене!</h1>
+            <h1 class="head">Raspberry Pi 3 доступна для предзаказа по низкой цене!</h1>
             <div class="text-center">Цена: <span class="price">2900</span> руб (оплата осущетвляется по факту вручения продукта курьером или самовывозом)</div>
             <div class="content">
                 <h2>Акции</h2>
-                При заказе от двух raspberry, скидка 5%
-                <a href="/img/raspberry-pi-3.jpg">
-                    <img style="margin: 0 auto;display: block;width: 500px;" src="/img/raspberry-pi-3.jpg" alt="Raspberry Pi 3 B" title="Raspberry Pi 3 B">
+                <p style="font-size: 18px;color: #ea023d;text-align: center;">При заказе от двух raspberry, скидка 5%</p>
+                
+                <!-- <p style="text-align: center;">Комплектация (описание комплектации есть ниже)</p> -->
+
+                <a href="/img/raspberry-pi-3.jpg" title="Raspberry Pi 3">
+                    <img src="/img/raspberry-pi-3.jpg" alt="Raspberry Pi 3 B" title="Raspberry Pi 3 B">
                 </a>
-                <a href="/img/raspberry-pi-3-technical-properties.jpg">
-                    <img style="margin: 0 auto;display: block;width: 500px;" src="/img/raspberry-pi-3-technical-properties.jpg" alt="Технические свойства Raspberry Pi 3 B" title="Raspberry Pi 3 B Технические свойства">
+                <a href="/img/raspberry-pi-3-technical-properties.jpg" title="Технические свойства Raspberry Pi 3">
+                    <img src="/img/raspberry-pi-3-technical-properties.jpg" alt="Технические свойства Raspberry Pi 3 B" title="Raspberry Pi 3 B Технические свойства">
                 </a>
                 
                 <h2>Технические характеристики</h2>
@@ -61,39 +75,46 @@
                     <li>Возможность подключения камеры: есть</li>
                 </ul>
 
-                <h2>Приминение (где можно использование)</h2>
+                <h2>Приминение (где можно использовать)</h2>
                 <ul>
                     <li>В обучении по информатике и электротехнике как самостоятельном так и в учебных заведениях или кружках</li>
-                    <li>Сборка гаджетов
+                    <li>Сборка гаджетов</li>
                 </ul>
 
-                
-                Третье поколение популярных моделей мини-компьютеров Raspberry от компании Raspberry Pi Foundation, производительнее и быстрее в два раза по сравнению с предыдущими моделями
+                <div>
+                    Третье поколение популярных моделей мини-компьютеров Raspberry от компании Raspberry Pi Foundation, производительнее и быстрее в два раза по сравнению с предыдущими моделями.
 
-                Новая Raspberry Pi 3 Model B построена на базе новейшего 64-битного ARMv8 процессора Broadcom 2837 и стала еще быстрее и мощнее предыдущих моделей.
-                Инженеры улучшили энергопотребление для совместимости с требовательными внешними USB-устройствами, а также прислушались к просьбам сообщества и добавили в Raspberry Pi 3 встроенные беспроводные модули Wi-Fi и Bluetooth.
+                    Новая Raspberry Pi 3 Model B построена на базе новейшего 64-битного ARMv8 процессора Broadcom 2837 и стала еще быстрее и мощнее предыдущих моделей.
+                    Инженеры улучшили энергопотребление для совместимости с требовательными внешними USB-устройствами, а также прислушались к просьбам сообщества и добавили в Raspberry Pi 3 встроенные беспроводные модули Wi-Fi и Bluetooth.
 
-                Основные качественные отличия Raspberry Pi 3 от второй версии:
-                Возросшая производительность
+                    <br>
+                    <br>
+                    <u>Основные качественные отличия Raspberry Pi 3 от второй версии:</u>
+                    <ul>
+                        <li>Возросшая производительность</li>
+                        <li>4-ядерный 64-битный ARMv8 процессор нового поколения Broadcom BCM2837.</li>
+                        <li>Частота процессора была увеличена с 900 МГц в Raspberry Pi 2 до 1.2 ГГц в Raspberry pi 3 Model B, а его производительность увеличилась на 50-60% по сравнию с Rasperry Pi 2 и в 10 раз по сравнению с первой версией.</li>
+                    </ul>
 
-                    4-ядерный 64-битный ARMv8 процессор нового поколения Broadcom BCM2837.
-                    Частота процессора была увеличена с 900 МГц в Raspberry Pi 2 до 1.2 ГГц в Raspberry pi 3 Model B, а его производительность увеличилась на 50-60% по сравнию с Rasperry Pi 2 и в 10 раз по сравнению с первой версией.
+                     
+                    <u>Новые возможности подключения</u>
 
-                 
-                Новые возможности подключения
+                        <ul>
+                            <li>Встроенный WiFi-модуль BCM43143.</li>
+                            <li>Встроенный модуль Bluetooth Low Energy (BLE).</li>
+                        </ul>
 
-                    Встроенный WiFi-модуль BCM43143.
-                    Встроенный модуль Bluetooth Low Energy (BLE).
+                     
+                    <u>Улучшенное энергопотребление</u>
+                    <p>Новый источник питания на 2,5А (теперь с поддержкой требовательных к питанию внешних USB-устройств).</p>
+                </div>
 
-                 
-                Улучшенное энергопотребление
-                Новый источник питания на 2,5А (теперь с поддержкой требовательных к питанию внешних USB-устройств).
-                
+                <h2>Краткий обзор Raspberry Pi 3</h2>
+                <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+                <div class='embed-container'><iframe src='http://www.youtube.com/embed/IIoH76CzsaQ' frameborder='0' allowfullscreen></iframe></div>
 
                 <h2>Отличия от предыдущих версий Raspberry</h2>
-                Отличия от второго поколения
-                    В отличие от Raspberry Pi 2 новинка получила более мощный процессор, а также беспроводной модуль Wi-Fi 802.11n. Кроме того, появился и модуль Bluetooth 4.1.
-
+                <p>В отличие от Raspberry Pi 2 новинка получила более мощный процессор, а также беспроводной модуль Wi-Fi 802.11n. Кроме того, появился и модуль Bluetooth 4.1.</p>
 
                 <style>
                     table {
@@ -105,7 +126,8 @@
                         font-size: small;
                     }
                 </style>
-                <table style="width: 730px; height: 705px;" bordercolor="gray" border="1" align="left" cellspacing="0" cellpadding="5">
+
+                <table style="width: 730px; height: 705px;border-color: lightgray;" bordercolor="gray" border="1" align="left" cellspacing="0" cellpadding="5">
                     <tbody>
                     <tr>
                         <td></td>
@@ -251,8 +273,13 @@
                 </table>
             </div>
 
-            <form class="form-horizontal col-md-6" action="/order/" method="POST">
+            <div class="clearfix"></div>
+            <br>
+
+            <form class="form-horizontal col-md-6" action="/contact-order/" method="POST">
                 
+                {{ csrf_field() }}
+
                 <div class="form-group">
                     <input class="form-control" type="text" name="name" placeholder="Имя" required>
                 </div>
