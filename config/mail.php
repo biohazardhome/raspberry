@@ -56,8 +56,13 @@ return [
     */
 
     'from' => [
-        'address' => 'hello@example.com',
-        'name' => 'Example',
+        'address' => 'mail@raspberry-pi3.ru',
+        'name' => 'Raspberry-pi3.ru',
+    ],
+
+    'to' => [
+        'address' => 'stalker-nikko@yandex.ru',
+        'name' => 'Example'
     ],
 
     /*

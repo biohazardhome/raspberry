@@ -11,15 +11,17 @@
 |
 */
 
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Order;
+use Illuminate\Http\Request;
 
 Route::get('/', function () {
-	/*$class = new ReflectionClass(App\Http\Kernel::class);
-
-	foreach ($class->getConstructor()->getParameters() as $parametr) {
-		dump($parametr->getClass());
-	}*/
-
 	return view('index');
+});
+
+Route::post('/contact-order', function(Request $request) {
+	Mail::send(new Order($request->all()));
+	return back()->with(['contact-form-success' => 'Успешно отправлена заявка']);
 });
 
 
